@@ -68,6 +68,7 @@ Example:
 # EX2
 
 - content of .env file :
+  
 | Variable      | Meaning                        |
 | ------------- | ------------------------------ |
 | MATRIX_MODE   | development or production      |
@@ -82,7 +83,8 @@ Example:
 - development mode vs production mode :
    - Development = training simulation (safe)
    - Production = real mission (critical system)
-  | Feature  | Development      | Production      |
+     
+| Feature  | Development      | Production      |
 | -------- | ---------------- | --------------- |
 | Database | Local/test       | Real/live       |
 | Logging  | DEBUG (detailed) | ERROR (minimal) |
