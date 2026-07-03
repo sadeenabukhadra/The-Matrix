@@ -66,6 +66,17 @@ Example:
 
 
 # EX2
+ The goal of this exercise is how to manage configuration .
+
+-Contentes:
+
+| Concept         | Meaning                         |
+| --------------- | ------------------------------- |
+| `.env`          | real secret config (not pushed) |
+| `.env.example`  | safe template                   |
+| `os.getenv()`   | reads variables                 |
+| `python-dotenv` | loads `.env` file               |
+| `.gitignore`    | protects secrets                |
 
 - content of .env file :
   
