@@ -49,6 +49,13 @@ Default Python package manager
 Installs packages from PyPI
 Uses requirements.txt
 
+
+| Command                           | Meaning                             |
+| --------------------------------- | ----------------------------------- |
+| `pip freeze`                      | shows installed packages + versions |
+| `> requirements.txt`              | saves them into a file              |
+| `pip install -r requirements.txt` | rebuilds the environment            |
+
 Example:
 
            pip install -r requirements.txt
@@ -57,6 +64,9 @@ Example:
 Modern dependency manager
 Handles virtual environments automatically
 Uses pyproject.toml and poetry.lock
+    -  pyproject.toml : what you want.
+    -  poetry.lock : excat frazen verion (like freeze).
+
 
 Example:
 
