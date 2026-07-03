@@ -82,10 +82,9 @@ Example:
 - development mode vs production mode :
    - Development = training simulation (safe)
    - Production = real mission (critical system)
-                                | Feature  | Development      | Production      |
-                                | -------- | ---------------- | --------------- |
-                                | Database | Local/test       | Real/live       |
-                                | Logging  | DEBUG (detailed) | ERROR (minimal) |
-                                | Safety   | relaxed          | strict          |
-                                | Purpose  | testing          | real users      |
-
+  | Feature  | Development      | Production      |
+| -------- | ---------------- | --------------- |
+| Database | Local/test       | Real/live       |
+| Logging  | DEBUG (detailed) | ERROR (minimal) |
+| Safety   | relaxed          | strict          |
+| Purpose  | testing          | real users      |
