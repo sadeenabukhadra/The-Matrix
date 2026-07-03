@@ -24,8 +24,37 @@ It includes a program that check if the system is inside virtual enviroment (ven
 so we know if the program inside the venv :
 
                if sys.prefix != sys.base_prefix:
+                       print("Inside virtual environment")
+               else:
+                       print("Outside virtual environment")
 
 
 # EX1
+The goals of this exercise :
+1) How to install dependencies ?
+2) How to check if they are installed ?
+3) How to tell the user what to do if the missing ?
+4) How to describe  dependencies  using pip nad poetory?
+
+
+Dependency Management
+- pip
+Default Python package manager
+Installs packages from PyPI
+Uses requirements.txt
+
+Example:
+
+           pip install -r requirements.txt
+
+- Poetry
+Modern dependency manager
+Handles virtual environments automatically
+Uses pyproject.toml and poetry.lock
+
+Example:
+
+       poetry install
+   
 
 
