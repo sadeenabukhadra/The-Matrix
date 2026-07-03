@@ -10,7 +10,9 @@ The goal of this project  is creating ecosystem in python.
 
 # EX1
 It includes a program that check if the system is inside virtual enviroment (venv) or outside it .
+
  by : 
+ 
  | Element                         | What it represents                           | Example (outside venv)   | Example (inside venv)              | Why we use it                              |
 | ------------------------------- | -------------------------------------------- | ------------------------ | ---------------------------------- | ------------------------------------------ |
 | `sys.prefix`                    | Current Python environment path              | `/usr` or `C:\Python311` | `/home/user/matrix_env`            | Shows where Python is currently running    |
