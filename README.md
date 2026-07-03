@@ -11,7 +11,7 @@ The goal of this project  is creating ecosystem in python.
 - [EX2](#EX2)
 
 
-# EX1
+# EX0 : Entering the Matrix
 It includes a program that check if the system is inside virtual enviroment (venv) or outside it .
 
  by : 
@@ -35,7 +35,7 @@ so we know if the program inside the venv :
                        print("Outside virtual environment")
 
 
-# EX1
+# EX1 : Loading Programs
 The goals of this exercise :
 1) How to install dependencies ?
 2) How to check if they are installed ?
@@ -65,7 +65,7 @@ Example:
 
 
 
-# EX2
+# EX2 : Accessing the Mainframe
  The goal of this exercise is how to manage configuration .
 
 -Contentes:
