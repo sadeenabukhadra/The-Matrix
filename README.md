@@ -7,6 +7,8 @@ The goal of this project  is creating ecosystem in python.
 
 - [EX2](#EX2)
 
+- [EX2](#EX2)
+
 
 # EX1
 It includes a program that check if the system is inside virtual enviroment (venv) or outside it .
@@ -58,6 +60,20 @@ Uses pyproject.toml and poetry.lock
 Example:
 
        poetry install
-   
+
+
+
+
+# EX2
+
+content of .env file :
+| Variable      | Meaning                        |
+| ------------- | ------------------------------ |
+| MATRIX_MODE   | development or production      |
+| DATABASE_URL  | database connection string     |
+| API_KEY       | secret key                     |
+| LOG_LEVEL     | logging level (DEBUG/INFO/etc) |
+| ZION_ENDPOINT | external system URL            |
+
 
 
