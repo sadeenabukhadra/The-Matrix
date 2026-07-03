@@ -67,7 +67,7 @@ Example:
 
 # EX2
 
-content of .env file :
+- content of .env file :
 | Variable      | Meaning                        |
 | ------------- | ------------------------------ |
 | MATRIX_MODE   | development or production      |
@@ -77,4 +77,14 @@ content of .env file :
 | ZION_ENDPOINT | external system URL            |
 
 
+
+
+- development mode vs production mode :
+   
+| Feature  | Development      | Production      |
+| -------- | ---------------- | --------------- |
+| Database | Local/test       | Real/live       |
+| Logging  | DEBUG (detailed) | ERROR (minimal) |
+| Safety   | relaxed          | strict          |
+| Purpose  | testing          | real users      |
 
