@@ -1,5 +1,5 @@
 # The-Matrix
-The goal of this project create ecosystem in python. 
+The goal of this project  is creating ecosystem in python. 
 
 # Content
 
